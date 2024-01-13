@@ -6,7 +6,6 @@ import Home from '../components/Home';
 import Trending from '../components/Trending';
 import Blog from '../components/Blog';
 import About from '../components/About';
-import {Icon} from 'react-native-vector-icons/Icon';
 
 const Tab = createBottomTabNavigator();
 
@@ -21,15 +20,7 @@ export default function BottomNav() {
             backgroundColor: '#101A56',
           },
         }}>
-        <Tab.Screen
-          name="Home"
-          component={Home}
-          options={{
-            tabBarIcon: ({color}) => (
-              <Icon name="home" color={color} size={30} />
-            ),
-          }}
-        />
+        <Tab.Screen name="Home" component={Home} />
         <Tab.Screen name="Trending" component={Trending} />
         <Tab.Screen name="Blog" component={Blog} />
         <Tab.Screen name="About" component={About} />
