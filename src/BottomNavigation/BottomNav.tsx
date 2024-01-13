@@ -16,7 +16,6 @@ export default function BottomNav() {
         initialRouteName="Home"
         screenOptions={{
           tabBarStyle: {
-            backfaceVisibility: 'hidden',
             backgroundColor: '#101A56',
           },
         }}>
