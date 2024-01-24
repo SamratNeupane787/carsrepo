@@ -76,6 +76,7 @@ android {
 
     namespace "com.cars_repo"
     defaultConfig {
+            missingDimensionStrategy 'react-native-camera', 'general'
         applicationId "com.cars_repo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion

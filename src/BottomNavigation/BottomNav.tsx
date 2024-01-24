@@ -11,6 +11,8 @@ import Fire from 'react-native-vector-icons/Fontisto';
 import Blogger from 'react-native-vector-icons/FontAwesome6';
 import User from 'react-native-vector-icons/FontAwesome';
 import ScanedInfo from '../components/ScanedInfo';
+import {SafeAreaView} from 'react-native-safe-area-context';
+
 const Bottom = createBottomTabNavigator();
 
 export default function BottomNav() {
